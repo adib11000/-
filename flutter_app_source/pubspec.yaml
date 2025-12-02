@@ -1,0 +1,29 @@
+name: speech_to_text_pro
+description: Professional Speech to Text Arabic App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # مكتبة عرض الويب (المتصفح الداخلي)
+  webview_flutter: ^4.4.2
+  # مكتبة إدارة الأذونات (للميكروفون)
+  permission_handler: ^11.0.1
+  # مكتبة خاصة لأندرويد
+  webview_flutter_android: ^3.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # الأيقونات (تأكد من وجود أيقونة في المجلد المخصص)
+  # assets:
+  #   - assets/images/
